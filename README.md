@@ -581,9 +581,9 @@ from email import encoders
 * Envoi du courriel : Une connexion SSL est établie avec le serveur SMTP de Gmail, puis le message est envoyé avec les informations d'identification du compte expéditeur.
 
 ```python
-sender_email = 'cryptoforecast2@gmail.com'
-password = 'v to e e y s d d h v s u a x l'
-receiver_email = 'essohlath95@gmail.com'
+sender_email = ''
+password = ''
+receiver_email = ''
 message = MIMEMultipart()
 message["From"] = sender_email
 message["To"] = receiver_email
